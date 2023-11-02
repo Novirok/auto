@@ -1,0 +1,87 @@
+.auto {
+    width: 20rem;
+    height: 5rem;
+    background-color: red;
+    position: relative;
+    bottom: 1340px; right: 400px;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+}
+.kolo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 1400px; right: 380px;
+    z-index: 3;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+}
+.trava {
+    width: 100rem;
+    height: 80rem;
+    background-color: green;
+}
+.silnice {
+    width: 100rem;
+    height: 25rem;
+    background-color: gray;
+    bottom: 1000px;
+    position: relative;
+}
+
+.pruh {
+    width: 100rem;
+    height: 1rem;
+    background-color: white;
+    bottom: 1370px;
+    position: relative;
+
+}
+.auto_okna {
+    width: 15rem;
+    height: 5rem;
+    background-color: red;
+    position: relative;
+    bottom: 1580px; right: 360px;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+}
+
+.gula {
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    position: relative;
+    bottom: 1640px; right: 180px;
+    z-index: 3;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+.okno {
+    width: 7rem;
+    height: 4rem;
+    background-color: aqua;
+    position: relative;
+    bottom: 1658px;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+    right: 355px;
+}
+.okenko {
+    width: 7rem;
+    height: 4rem;
+    background-color: aqua;
+    position: relative;
+    bottom: 1802px;
+    animation: auto_animation 10s infinite;
+    animation-timing-function: linear;
+    right: 237px;
+}
+    @keyframes auto_animation {
+    from{margin-left: 0;}
+    to{margin-left: 2050px;}
+}
